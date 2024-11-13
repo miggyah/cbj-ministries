@@ -815,8 +815,18 @@ a:focus {
 }
 
 .donate .donate-form {
-    padding: 90px 30px;
+    padding: 60px 40px;        /* Reduced padding to make the borders smaller */
     background: #FDBE33;
+    display: flex;
+    justify-content: center;   /* Horizontally centers the image */
+    align-items: center;       /* Vertically centers the image */
+    height: 100%;              /* Ensures the container has enough height */
+    border-radius: 40px;       /* Optional: rounded corners for a nicer look */
+}
+
+.donate .donate-form img {
+    width: 20rem;              /* Increase image width */
+    height: 20rem;             /* Increase image height */
 }
 
 .donate .donate-form .control-group {
